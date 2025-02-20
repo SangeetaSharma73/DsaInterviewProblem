@@ -5,14 +5,8 @@
 
 # Example 1:
 # Input:
-# plaintext
-# 
-# Edit
 # Stream: "aabc"
 # Output:
-# plaintext
-# 
-# Edit
 # ['a', 'a', 'b', 'b']
 # Explanation:
 # 'a' appears → First non-repeating: 'a'
@@ -21,14 +15,8 @@
 # 'c' appears → First non-repeating: 'b'
 # Example 2:
 # Input:
-# plaintext
-# 
-# Edit
 # Stream: "aac"
 # Output:
-# plaintext
-# 
-# Edit
 # ['a', 'a', 'c']
 # Explanation:
 # 'a' appears → First non-repeating: 'a'
@@ -41,9 +29,6 @@
 # Find the first character that has appeared only once.
 # Time Complexity: O(N^2)
 # Space Complexity: O(1)
-# python
-# 
-# Edit
 # def firstNonRepeating(stream):
 #     result = []
     
@@ -69,9 +54,6 @@
 # For each character, update the hashmap and check the first non-repeating character.
 # Time Complexity: O(N)
 # Space Complexity: O(N)
-# python
-# 
-# Edit
 # from collections import OrderedDict
 
 # def firstNonRepeating(stream):
@@ -102,9 +84,6 @@
 # The first element in the queue is the first non-repeating character.
 # Time Complexity: O(N)
 # Space Complexity: O(N)
-# python
-# 
-# Edit
 # from collections import deque
 
 # def firstNonRepeating(stream):
