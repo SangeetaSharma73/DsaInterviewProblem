@@ -20,7 +20,7 @@
 #1. Brute Force
 # T.C = O(n*k)
 # S.C = O(1)
-def duplicateWithinK(arr,k):
+def duplicateWithinK(arr,k): 
     for i in range(len(arr)):
         for j in range(1,k+1):
             c=i+j
